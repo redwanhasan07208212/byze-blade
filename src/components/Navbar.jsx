@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-lg px-4 fixed z-10">
       <div className="flex-1">
-        <a className="btn btn-ghost text-2xl gap-0 text-secondary normal-case">Byte<span className="text-primary">Blaze</span></a>
+        <NavLink className="btn btn-ghost text-2xl gap-0 text-secondary normal-case">Byte<span className="text-primary">Blaze</span></NavLink>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1 flex gap-5 text-lg items-center pr-5">
